@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Work Sans', sans-serif;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.editform {
+    margin: 20px auto;
+    padding: 10px;
+    height: 60%;
+    width: 30%;
+    background-color: lightgrey;
+    color: #1ECEFD;
+    font-weight: bold;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px rgba(204,204,204,1)
+}
+
+.profile_img {
+    background: url(../css/Wile_E_Coyote.png) no-repeat center;
+    background-position: center;
+    background-color: #1ecefd;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 65%;
+    width: auto;
+    /* border: 1px solid blue; */
+    border-radius: 15px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.name_title {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.contact {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.bio {
+    margin-left: 10px;
+    margin: 0 20px;
+}
+
+input {
+    padding: 14px;
+}
+
+.form_input, textarea {
+    border-radius: 20px;
+    border: 1px solid #3a3a3a;
+}
+
+textarea {
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+h3 {
+    color: #505355;
+}
+
+button {
+    background-color: #505355;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    margin:20px;
+    width: 90%;
+}
+
+a {
+    display: none;
+}

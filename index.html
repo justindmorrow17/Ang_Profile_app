@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ProfileApp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="app/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <title>Profile App Lab</title>
+
+</head>
+
+<body>
+
+
+
+  <!-- where the routes are loaded in and displayed -->
+  <ng-view></ng-view>
+
+  <!-- anchors the route for the component to the html, anchor tag is the default element to use -->
+  <a href="#!/profilepage">Profile</a>
+  <a href="#!/editprofile">Edit</a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
+  <script src="app/app.module.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/profile/profile.component.js"></script>
+  <script src="app/editprofile/edit.component.js"></script>
+  <script src="app/app.service.js"></script>
+</body>
+
+</html>
